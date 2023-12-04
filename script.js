@@ -10,10 +10,10 @@ const startPauseBt = document.querySelector('#start-pause')
 const iniciarOuPausarBt = document.querySelector('#start-pause span')
 const iniciarOuPausarBtIcone = document.querySelector('.app__card-primary-butto-icon')
 const tempoNaTela = document.querySelector('#timer')
-const musica = new Audio ('/sons/luna-rise-part-one.mp3')
-const somDePlay = new Audio ('/sons/play.wav')
-const somDePause = new Audio ('/sons/pause.mp3')
-const beepTempoFinalizado = new Audio ('/sons/beep.mp3')
+const musica = new Audio ('./sons/luna-rise-part-one.mp3')
+const somDePlay = new Audio ('./sons/play.wav')
+const somDePause = new Audio ('./sons/pause.mp3')
+const beepTempoFinalizado = new Audio ('./sons/beep.mp3')
 
 
 let tempoDecorridoEmSegundos = 1500
@@ -53,7 +53,7 @@ function alterarContexto (contexto) {
         contexto.classList.remove('active')
     })
     html.setAttribute('data-contexto', contexto)
-    banner.setAttribute('src', `/imagens/${contexto}.png`)
+    banner.setAttribute('src', `./imagens/${contexto}.png`)
     switch (contexto) {
         case "foco":
             titulo.innerHTML = `
@@ -100,14 +100,14 @@ function iniciarOuPausar() {
     somDePlay.play();
     intervaloId = setInterval(contagemRegressiva, 1000) // 1000 pq o valor é recebido em milissegundos
     iniciarOuPausarBt.textContent = "Pausar"
-    iniciarOuPausarBtIcone.setAttribute('src',`/imagens/pause.png`)
+    iniciarOuPausarBtIcone.setAttribute('src',`./imagens/pause.png`)
 }
 
 //interrompe a execução da função 
 function zerar() {
     clearInterval(intervaloId)
     iniciarOuPausarBt.textContent ="Começar"
-    iniciarOuPausarBtIcone.setAttribute('src',`/imagens/play_arrow.png`)
+    iniciarOuPausarBtIcone.setAttribute('src',`./imagens/play_arrow.png`)
     intervaloId = null
 }
 
