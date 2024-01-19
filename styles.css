@@ -5,13 +5,10 @@
     --fundo-card-timer: rgba(20, 68, 128, 0.30);
     --lils: #B872FF;
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
-<<<<<<< HEAD
 
     --azul-profundo: #01080E;
     --fundo-card: rgba(255, 255, 255, 0.50);
     --fundo-card-concludo: rgba(0, 244, 191, 0.40);
-=======
->>>>>>> 0ec6b02200ec9b6736c645a91cb0ede1953c3b22
 }
 
 [data-contexto="foco"] {
@@ -236,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* fim - toggle */
 
-<<<<<<< HEAD
+
 /* dropdown */
 .dropdown-container {
     position: relative;
@@ -280,8 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* fim - dropdown */
 
-=======
->>>>>>> 0ec6b02200ec9b6736c645a91cb0ede1953c3b22
+
 /* Para Tablets */
 @media (max-width: 1024px) and (min-width: 768px) {
     .app__section-banner-container {
