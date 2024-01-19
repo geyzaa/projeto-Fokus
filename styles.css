@@ -302,7 +302,6 @@ h1, h2, h3, h4, h5, h6 {
     .app__card-timer {
         font-size: 6rem;
     }
-<<<<<<< HEAD
 
     .app__section-active-task {
         gap: 2rem;
@@ -516,6 +515,3 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8;
     cursor: not-allowed;
 }
-=======
-}
->>>>>>> 0ec6b02200ec9b6736c645a91cb0ede1953c3b22
