@@ -30,7 +30,7 @@ musicaFocoInput.addEventListener('change', () => {
 })
 //evento click para os botões, ao clicar muda o atributo html
 focoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 5//1500
+    tempoDecorridoEmSegundos = 1500
     alterarContexto('foco')
     focoBt.classList.add('active')
 })
