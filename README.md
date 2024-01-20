@@ -1,5 +1,6 @@
 # projeto-Fokus
 Projeto front-end inspirado na técnica pomodoro (um método de gerenciamento de tempo), com intuito de praticar a manipulação de elementos no DOM.<br>
+Acesse o projeto pelo link: https://geyzaa.github.io/projeto-Fokus/
 
 ![image](https://github.com/geyzaa/projeto-Fokus/assets/97538755/c268a36c-70d8-443a-a78a-8652f026e29e)
 ![image](https://github.com/geyzaa/projeto-Fokus/assets/97538755/0ce14a22-3abe-41d0-af3d-2074f694a42f)
